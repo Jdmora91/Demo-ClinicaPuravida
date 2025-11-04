@@ -7,7 +7,7 @@ import ScrollProgess from './components/ScrollProgress.jsx';
 import Location from './sections/Location.jsx';
 import Testimonials from './sections/Testimonials.jsx';
 import Contact from './sections/Contact.jsx';
-import CTAStickyFooter from './components/CtaStickyFooter.jsx';
+import CtaStickyFooter from './components/CtaStickyFooter.jsx';
 import Footer from './components/Footer.jsx';
 
 export default function App() {
@@ -28,7 +28,7 @@ export default function App() {
       </main>
 
 
-      <CTAStickyFooter />
+      <CtaStickyFooter />
       <WhatsAppFloat />
       <Footer />
     </div>
