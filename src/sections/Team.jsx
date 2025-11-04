@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import WaveDivider from "../components/WaveDivider";
 
 /* Imágenes */
-import drImg from "../assets/Team/Dr.avif";
-import draImg from "../assets/Team/Dra.avif";
-import odonImg from "../assets/Team/Odon.avif";
+import drImg from "../assets/Team/dr.avif";
+import draImg from "../assets/Team/dra.avif";
+import odonImg from "../assets/Team/odon.avif";
 import fisioImg from "../assets/Team/fisioter.avif";
 import labImg from "../assets/Team/labora.avif";
 import secreImg from "../assets/Team/secre.avif";
