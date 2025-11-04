@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "../assets/logo.png"
 
 export default function Footer() {
   const { t } = useTranslation();
