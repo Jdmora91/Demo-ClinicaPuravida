@@ -41,17 +41,17 @@ export default function Services() {
         bg-gradient-to-b from-white via-blue-50 to-blue-100
       "
     >
-      {/* ✅ Título premium */}
+      {/* Título premium */}
       <SectionTitle title={title} subtitle={subtitle} />
 
-      {/* ✅ Luces premium */}
+      {/* Luces premium */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-[-25%] left-[-10%] w-[550px] h-[550px] bg-blue-200/35 blur-[170px] rounded-full"></div>
         <div className="absolute bottom-[-20%] right-[-10%] w-[650px] h-[650px] bg-sky-300/40 blur-[180px] rounded-full"></div>
         <div className="absolute top-[30%] right-[20%] w-[350px] h-[350px] bg-emerald-200/25 blur-[150px] rounded-full"></div>
       </div>
 
-      {/* ✅ Grid Premium */}
+      {/* Grid Premium */}
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {items.map((svc, idx) => {
           const img = ImageByKey[svc.key] ?? generalImg;
@@ -135,7 +135,7 @@ export default function Services() {
         })}
       </div>
 
-      {/* ✅ Wave inferior */}
+      {/* Wave inferior */}
       <div className="absolute bottom-[-1px] left-0 w-full overflow-hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"

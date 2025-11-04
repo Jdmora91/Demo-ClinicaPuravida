@@ -15,16 +15,16 @@ export default function Hero() {
         bg-gradient-to-br from-sky-100 via-blue-50 to-white
       "
     >
-      {/* ✅ SUPERFICIE DE LUZ GLOBAL */}
+      {/* SUPERFICIE DE LUZ GLOBAL */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.9),rgba(200,225,255,0.4)_40%,rgba(255,255,255,0)_70%)]"></div>
 
-      {/* ✅ LUZ LATERAL PREMIUM */}
+      {/* LUZ LATERAL PREMIUM */}
       <div className="pointer-events-none absolute left-0 top-0 h-full w-[50%] bg-gradient-to-r from-white/90 via-white/40 to-transparent"></div>
 
-      {/* ✅ GLOW BOTTOM */}
+      {/* GLOW BOTTOM */}
       <div className="pointer-events-none absolute bottom-[-180px] left-1/2 -translate-x-1/2 w-[120%] h-[280px] bg-sky-300/40 blur-[140px] opacity-60"></div>
 
-      {/* ✅ CONTENIDO */}
+      {/* CONTENIDO */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
 
         {/* ===================== COL 1 – TEXTO ===================== */}
@@ -120,7 +120,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* ✅ WAVE TRANSITION */}
+      {/* WAVE TRANSITION */}
       <div className="absolute bottom-[-1px] left-0 w-full overflow-hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"

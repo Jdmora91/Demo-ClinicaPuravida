@@ -31,17 +31,17 @@ export default function Team() {
         bg-gradient-to-b from-blue-50 via-blue-100 to-white
       "
     >
-      {/* ✅ Transición superior */}
+      {/* Transición superior */}
       <WaveDivider direction="up" color="#E0F2FE" opacity={1} />
 
-      {/* ✅ Fondos Atmosféricos Premium */}
+      {/* Fondos Atmosféricos Premium */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-[-18%] left-[-10%] w-[480px] h-[480px] bg-sky-200/35 blur-[160px] rounded-full"></div>
         <div className="absolute bottom-[-15%] right-[-10%] w-[550px] h-[550px] bg-blue-300/30 blur-[180px] rounded-full"></div>
         <div className="absolute top-[35%] right-[15%] w-[350px] h-[350px] bg-emerald-200/25 blur-[150px] rounded-full"></div>
       </div>
 
-      {/* ✅ Encabezado */}
+      {/* Encabezado */}
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export default function Team() {
         </p>
       </motion.div>
 
-      {/* ✅ Grid del equipo */}
+      {/* Grid del equipo */}
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {members.map((m, index) => (
           <motion.div
@@ -83,7 +83,7 @@ export default function Team() {
               transition-all duration-500 ease-out
             "
           >
-            {/* ✅ Marco luminoso premium */}
+            {/* Marco luminoso premium */}
             <div
               className="
                 absolute inset-0 rounded-3xl opacity-0
@@ -93,7 +93,7 @@ export default function Team() {
               "
             ></div>
 
-            {/* ✅ Foto */}
+            {/* Foto */}
             <div className="relative w-40 h-40 mx-auto mb-5 rounded-full overflow-hidden shadow-xl">
               <img
                 src={imageByKey[m.key]}
@@ -109,17 +109,17 @@ export default function Team() {
               <div className="absolute inset-0 bg-gradient-to-t from-sky-100/30 to-transparent" />
             </div>
 
-            {/* ✅ Nombre */}
+            {/* Nombre */}
             <h3 className="text-xl font-semibold text-blue-900">
               {m.name}
             </h3>
 
-            {/* ✅ Rol */}
+            {/* Rol */}
             <p className="text-blue-600 font-medium text-sm tracking-wide mt-1">
               {m.role}
             </p>
 
-            {/* ✅ Descripción */}
+            {/* Descripción */}
             <p className="mt-3 text-slate-600 text-sm leading-relaxed px-2">
               {m.desc}
             </p>
@@ -127,7 +127,7 @@ export default function Team() {
         ))}
       </div>
 
-      {/* ✅ Transición inferior */}
+      {/* Transición inferior */}
       <div className="mt-20">
         <WaveDivider direction="down" color="#E0F2FE" opacity={1} />
       </div>

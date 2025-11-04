@@ -4,7 +4,7 @@ export default function SectionTitle({ title, subtitle, badge }) {
   return (
     <div className="text-center max-w-3xl mx-auto mb-20 px-6">
       
-      {/* 🔹 Badge opcional */}
+      {/* Badge opcional */}
       {badge && (
         <motion.span
           initial={{ opacity: 0, y: -10 }}
@@ -17,7 +17,7 @@ export default function SectionTitle({ title, subtitle, badge }) {
         </motion.span>
       )}
 
-      {/* 🔹 Título Premium */}
+      {/* Título Premium */}
       <motion.h2
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ export default function SectionTitle({ title, subtitle, badge }) {
         {title}
       </motion.h2>
 
-      {/* 🔹 Línea elegante minimalista */}
+      {/* Línea elegante minimalista */}
       <motion.div
         initial={{ scaleX: 0 }}
         whileInView={{ scaleX: 1 }}
@@ -37,7 +37,7 @@ export default function SectionTitle({ title, subtitle, badge }) {
         className="w-24 h-[3px] bg-blue-600 mx-auto mt-4 rounded-full origin-left"
       />
 
-      {/* 🔹 Subtítulo editorial */}
+      {/* Subtítulo editorial */}
       {subtitle && (
         <motion.p
           initial={{ opacity: 0 }}

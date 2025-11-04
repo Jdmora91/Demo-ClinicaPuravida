@@ -31,10 +31,10 @@ export default function Location() {
       id="location"
       className="relative min-h-screen py-28 overflow-hidden"
     >
-      {/* ✅ Divider Superior */}
+      {/* Divider Superior */}
       <WaveDivider direction="up" color="#E0F2FE" opacity={1} />
 
-      {/* ✅ Fondo atmosférico premium */}
+      {/* Fondo atmosférico premium */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-b from-blue-50 via-blue-100 to-white" />
 
@@ -46,7 +46,7 @@ export default function Location() {
         <div className="absolute inset-0 bg-[linear-gradient(115deg,transparent,rgba(255,255,255,0.6),transparent)] opacity-25" />
       </div>
 
-      {/* ✅ Título */}
+      {/* Título */}
       <SectionTitle
         title={t("location.title")}
         subtitle={t("location.subtitle")}
@@ -54,7 +54,7 @@ export default function Location() {
       />
 
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
-        {/* ✅ Panel de información ultra premium */}
+        {/* Panel de información ultra premium */}
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,10 +67,10 @@ export default function Location() {
             overflow-hidden
           "
         >
-          {/* ✅ Glow interior */}
+          {/* Glow interior */}
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-50/30 to-blue-100/10 pointer-events-none"></div>
 
-          {/* ✅ Dirección */}
+          {/* Dirección */}
           <div className="flex items-start gap-3 mb-6 relative z-10">
             <MapPin className="text-blue-600 w-7 h-7" />
             <p className="font-medium text-slate-700 leading-relaxed">
@@ -78,7 +78,7 @@ export default function Location() {
             </p>
           </div>
 
-          {/* ✅ Horarios */}
+          {/* Horarios */}
           <div className="flex items-center gap-3 mb-6 relative z-10">
             <Clock className="text-blue-600 w-6 h-6" />
             <p className="font-medium text-slate-700">
@@ -86,7 +86,7 @@ export default function Location() {
             </p>
           </div>
 
-          {/* ✅ Estado del negocio */}
+          {/* Estado del negocio */}
           <p
             className={`
               inline-block px-4 py-1 rounded-full text-sm font-semibold mb-6 relative z-10
@@ -96,7 +96,7 @@ export default function Location() {
             {isOpen ? t("location.openNow") : t("location.closedNow")}
           </p>
 
-          {/* ✅ Cómo llegar */}
+          {/* Cómo llegar */}
           <a
             href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
               ADDRESS
@@ -111,7 +111,7 @@ export default function Location() {
             {t("location.getDirections")}
           </a>
 
-          {/* ✅ Teléfono */}
+          {/* Teléfono */}
           <a
             href={`tel:${PHONE}`}
             className="
@@ -124,7 +124,7 @@ export default function Location() {
           </a>
         </motion.div>
 
-        {/* ✅ Mapa premium con animación */}
+        {/* Mapa premium con animación */}
         <motion.div
           initial={{ opacity: 0, scale: 0.96 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -144,12 +144,12 @@ export default function Location() {
             loading="lazy"
           ></iframe>
 
-          {/* ✅ Glow sutil superior */}
+          {/* Glow sutil superior */}
           <div className="absolute inset-0 bg-gradient-to-t from-white/10 to-transparent pointer-events-none"></div>
         </motion.div>
       </div>
 
-      {/* ✅ Divider inferior */}
+      {/* Divider inferior */}
       <div className="mt-28">
         <WaveDivider direction="down" color="#E0F2FE" opacity={1} />
       </div>

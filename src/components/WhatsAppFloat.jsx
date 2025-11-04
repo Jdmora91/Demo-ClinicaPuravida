@@ -12,7 +12,7 @@ export default function WhatsAppFloat() {
             rel="noopener noreferrer"
             aria-label="Chatear por WhatsApp con Clínica Pura Vida"
 
-            /* ✅ Solo visible en DESKTOP */
+            /* Solo visible en DESKTOP */
             className="
             hidden md:flex
             fixed bottom-6 right-6 z-50 items-center justify-center 
