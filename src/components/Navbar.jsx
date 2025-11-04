@@ -15,7 +15,7 @@ export default function Navbar() {
     { key: "services", href: "#services" },
     { key: "team", href: "#Team" },
     { key: "Location", href: "#location" },
-    { key: "testimonials", href: "#testimonials"},
+    { key: "testimonials", href: "#testimonials" },
     { key: "contact", href: "#contacto" },
   ];
 
@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       {/* DESKTOP NAV */}
       <nav className="fixed top-4 left-0 right-0 z-[9999] hidden md:flex justify-center">
-        
+
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -51,9 +51,9 @@ export default function Navbar() {
 
           {/* LOGO */}
           <a href="#inicio">
-            <img src={logo} 
-            className="h-[27px] object-contain"
-            alt="Clinica Pura Vida" />
+            <img src={logo}
+              className="h-[27px] object-contain"
+              alt="Clinica Pura Vida" />
           </a>
 
           {/* LINKS */}
@@ -82,11 +82,10 @@ export default function Navbar() {
               <button
                 key={lng}
                 onClick={() => changeLanguage(lng)}
-                className={`px-2 text-sm transition ${
-                  i18n.language === lng
+                className={`px-2 text-sm transition ${i18n.language === lng
                     ? "text-blue-600 font-bold"
                     : "text-slate-600 hover:text-blue-500"
-                }`}
+                  }`}
               >
                 {lng.toUpperCase()}
               </button>
@@ -98,9 +97,15 @@ export default function Navbar() {
       {/* MOBILE NAV */}
       <nav className="fixed top-0 left-0 right-0 z-[9999] md:hidden">
         <div className="flex items-center justify-between px-4 h-[56px] bg-white/85 border-b border-slate-200 shadow-md backdrop-blur-xl">
-          
+
           {/* Logo */}
-          <img src="/src/assets/logo.png" className="h-[32px]" />
+          {/* Logo */}
+          <img
+            src={logo}
+            className="h-[32px] object-contain"
+            alt="Clinica Pura Vida"
+          />
+
 
           {/* Button menu */}
           <button
@@ -147,10 +152,10 @@ export default function Navbar() {
                 </button>
 
                 {/* LOGO */}
-                <img src={logo} 
-                className="h-[40px]"
-                alt="Clinica Pura Vida"
-                 />
+                <img src={logo}
+                  className="h-[40px]"
+                  alt="Clinica Pura Vida"
+                />
 
                 {/* LINKS */}
                 <ul className="flex flex-col items-center gap-3 text-[18px] font-medium">
@@ -174,10 +179,9 @@ export default function Navbar() {
                       key={lng}
                       onClick={() => changeLanguage(lng)}
                       className={`w-10 h-10 flex items-center justify-center rounded-full border text-sm shadow-sm transition-all
-                        ${
-                          i18n.language === lng
-                            ? "bg-blue-600 text-white border-blue-600 shadow-md"
-                            : "bg-white/70 text-slate-700 border-slate-300 hover:bg-white"
+                        ${i18n.language === lng
+                          ? "bg-blue-600 text-white border-blue-600 shadow-md"
+                          : "bg-white/70 text-slate-700 border-slate-300 hover:bg-white"
                         }
                       `}
                     >
