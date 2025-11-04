@@ -5,6 +5,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
+    
     <section
       id="inicio"
       className="
@@ -15,7 +16,7 @@ export default function Hero() {
         bg-gradient-to-br from-sky-100 via-blue-50 to-white
       "
     >
-      {/* SUPERFICIE DE LUZ GLOBAL */}
+      {/* SUPERFICIE */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.9),rgba(200,225,255,0.4)_40%,rgba(255,255,255,0)_70%)]"></div>
 
       {/* LUZ LATERAL PREMIUM */}
