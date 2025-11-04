@@ -13,7 +13,7 @@ export default function Footer() {
         backdrop-blur-xl
       "
     >
-      {/* 🔹 Luces suaves de fondo */}
+      {/* Luces suaves de fondo */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-[-20%] left-[10%] w-[400px] h-[400px] bg-sky-200/40 blur-[150px] rounded-full"></div>
         <div className="absolute bottom-[-20%] right-[10%] w-[500px] h-[500px] bg-blue-300/30 blur-[180px] rounded-full"></div>
@@ -21,7 +21,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
         
-        {/* ✅ Branding */}
+        {/* Branding */}
         <div>
           <div className="flex items-center gap-3 mb-4">
             <img
@@ -39,7 +39,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* ✅ Enlaces rápidos */}
+        {/* Enlaces rápidos */}
         <div>
           <h4 className="text-blue-900 font-semibold mb-4">
             {t("footer.quickLinks")}
@@ -70,7 +70,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* ✅ Contacto */}
+        {/* Contacto */}
         <div>
           <h4 className="text-blue-900 font-semibold mb-4">
             {t("footer.contact")}
@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* ✅ Línea inferior */}
+      {/* Línea inferior */}
       <div className="mt-12 pt-6 border-t border-slate-300/40 text-center text-slate-600 text-sm">
         © {new Date().getFullYear()} Clínica Pura Vida — {t("footer.rights")}
       </div>

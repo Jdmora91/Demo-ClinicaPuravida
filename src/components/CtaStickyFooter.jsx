@@ -21,7 +21,7 @@ export default function CTAStickyFooter() {
         px-5 py-4 flex items-center justify-between gap-3
       "
     >
-      {/* ✅ Botón WhatsApp */}
+      {/* Botón WhatsApp */}
       <a
         href="https://wa.me/50670277792"
         target="_blank"
@@ -40,7 +40,7 @@ export default function CTAStickyFooter() {
         {t("cta.mobileWhatsApp")}
       </a>
 
-      {/* ✅ Botón Agendar cita */}
+      {/* Botón Agendar cita */}
       <a
         href="#contacto"
         className="

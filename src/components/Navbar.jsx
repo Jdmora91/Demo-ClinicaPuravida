@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,7 +27,7 @@ export default function Navbar() {
 
   return (
     <>
-      {/* ✅ DESKTOP NAV */}
+      {/* DESKTOP NAV */}
       <nav className="fixed top-4 left-0 right-0 z-[9999] hidden md:flex justify-center">
         
         <motion.div
@@ -45,15 +46,17 @@ export default function Navbar() {
               "linear-gradient(135deg, rgba(255,255,255,0.7), rgba(170,220,255,0.25))",
           }}
         >
-          {/* ✅ GRADIENT BORDER */}
+          {/* GRADIENT BORDER */}
           <div className="absolute inset-0 p-[1.5px] rounded-full bg-gradient-to-r from-blue-400 via-sky-300 to-blue-500 opacity-30 pointer-events-none"></div>
 
-          {/* ✅ LOGO */}
+          {/* LOGO */}
           <a href="#inicio">
-            <img src="/src/assets/logo.png" className="h-[27px] object-contain" />
+            <img src={logo} 
+            className="h-[27px] object-contain"
+            alt="Clinica Pura Vida" />
           </a>
 
-          {/* ✅ LINKS */}
+          {/* LINKS */}
           <ul className="flex items-center gap-6 text-[14px] font-medium">
             {links.map((item) => (
               <li key={item.key}>
@@ -73,7 +76,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* ✅ LANGS */}
+          {/* LANGS */}
           <div className="flex items-center gap-1 px-2 py-[2px] rounded-full bg-white/70 border border-slate-300">
             {["es", "en"].map((lng) => (
               <button
@@ -92,7 +95,7 @@ export default function Navbar() {
         </motion.div>
       </nav>
 
-      {/* ✅ MOBILE NAV */}
+      {/* MOBILE NAV */}
       <nav className="fixed top-0 left-0 right-0 z-[9999] md:hidden">
         <div className="flex items-center justify-between px-4 h-[56px] bg-white/85 border-b border-slate-200 shadow-md backdrop-blur-xl">
           
@@ -109,7 +112,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* ✅ OVERLAY + CIRCULAR MENU */}
+        {/* OVERLAY + CIRCULAR MENU */}
         <AnimatePresence>
           {menuOpen && (
             <motion.div
@@ -132,10 +135,10 @@ export default function Navbar() {
                 "
               >
 
-                {/* ✅ GRADIENT OUTER BORDER */}
+                {/* GRADIENT OUTER BORDER */}
                 <div className="absolute inset-0 p-[2px] rounded-full bg-gradient-to-br from-blue-400 via-sky-300 to-blue-500 opacity-40 pointer-events-none"></div>
 
-                {/* ✅ CLOSE BUTTON */}
+                {/* CLOSE BUTTON */}
                 <button
                   onClick={() => setMenuOpen(false)}
                   className="absolute top-5 right-5 w-9 h-9 flex items-center justify-center rounded-full bg-white border shadow text-slate-700 text-lg"
@@ -143,10 +146,13 @@ export default function Navbar() {
                   ✕
                 </button>
 
-                {/* ✅ LOGO */}
-                <img src="/src/assets/logo.png" className="h-[40px]" />
+                {/* LOGO */}
+                <img src={logo} 
+                className="h-[40px]"
+                alt="Clinica Pura Vida"
+                 />
 
-                {/* ✅ LINKS */}
+                {/* LINKS */}
                 <ul className="flex flex-col items-center gap-3 text-[18px] font-medium">
                   {links.map((item) => (
                     <li key={item.key}>
@@ -161,7 +167,7 @@ export default function Navbar() {
                   ))}
                 </ul>
 
-                {/* ✅ LANG SELECTOR PREMIUM */}
+                {/* LANG SELECTOR PREMIUM */}
                 <div className="flex gap-3 mt-2">
                   {["es", "en"].map((lng) => (
                     <button

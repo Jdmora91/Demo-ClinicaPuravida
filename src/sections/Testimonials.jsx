@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
-/* ✅ Imágenes recomendadas */
+/* Imágenes recomendadas */
 import img1 from "../assets/testimonials/happy.avif";
 import img2 from "../assets/testimonials/happyPa.avif";
 import img3 from "../assets/testimonials/smile.avif";
@@ -17,7 +17,7 @@ export default function Testimonials() {
 
   const [index, setIndex] = useState(0);
 
-  // ✅ Auto-slide cada 6s
+  // Auto-slide cada 6s
   useEffect(() => {
     const id = setInterval(() => {
       setIndex((prev) => (prev + 1) % items.length);
@@ -27,7 +27,7 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials" className="relative py-24 overflow-hidden">
-      {/* ✅ Fondo elegante */}
+      {/* Fondo elegante */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-white via-blue-50 to-white" />
       <div className="absolute top-[10%] left-[10%] w-[450px] h-[450px] bg-blue-200/40 blur-[120px] rounded-full" />
       <div className="absolute bottom-[10%] right-[10%] w-[500px] h-[500px] bg-sky-200/40 blur-[140px] rounded-full" />
@@ -39,7 +39,7 @@ export default function Testimonials() {
         {t("testimonials.subtitle")}
       </p>
 
-      {/* ✅ Carrusel */}
+      {/* Carrusel */}
       <div className="relative max-w-4xl mx-auto px-6">
 
         <AnimatePresence mode="wait">
@@ -74,7 +74,7 @@ export default function Testimonials() {
           </motion.div>
         </AnimatePresence>
 
-        {/* ✅ Indicadores */}
+        {/* Indicadores */}
         <div className="flex justify-center gap-2 mt-6">
           {items.map((_, i) => (
             <button
