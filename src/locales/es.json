@@ -1,0 +1,188 @@
+{
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Atención médica integral, moderna y cercana.",
+    "cta": "Agendar cita por WhatsApp",
+    "ctaAria": "Agendar cita por WhatsApp para {{service}}",
+    "whatsappMessage": "Hola, me interesa una cita para {{service}}. ¿Podrían brindarme más información?",
+    "items": [
+      {
+        "key": "general",
+        "title": "Medicina General",
+        "desc": "Atención primaria, diagnóstico y seguimiento para toda la familia.",
+        "alt": "Consulta de medicina general en clínica"
+      },
+      {
+        "key": "lab",
+        "title": "Laboratorio Clínico",
+        "desc": "Exámenes de sangre y orina con resultados rápidos y confiables.",
+        "alt": "Equipo de laboratorio clínico realizando análisis"
+      },
+      {
+        "key": "odonto",
+        "title": "Odontología",
+        "desc": "Limpiezas, resinas y estética dental en un entorno seguro y moderno.",
+        "alt": "Dentista atendiendo a paciente en consultorio"
+      },
+      {
+        "key": "pediatria",
+        "title": "Pediatría",
+        "desc": "Controles de crecimiento, vacunas y atención especializada para niños.",
+        "alt": "Pediatra atendiendo a un niño"
+      },
+      {
+        "key": "fisio",
+        "title": "Fisioterapia y Rehabilitación",
+        "desc": "Terapias personalizadas para recuperar movilidad y bienestar.",
+        "alt": "Fisioterapeuta guiando ejercicios de rehabilitación"
+      },
+      {
+        "key": "telemed",
+        "title": "Telemedicina",
+        "desc": "Consulta médica en línea, estés donde estés.",
+        "alt": "Médico realizando consulta por videollamada"
+      },
+      {
+        "key": "emergencia",
+        "title": "Emergencias",
+        "desc": "Atención inmediata y oportuna para situaciones urgentes.",
+        "alt": "Equipo médico listo para emergencias"
+      }
+    ]
+  },
+  "nav": {
+    "brand": "Clínica Pura Vida",
+    "home": "Inicio",
+    "services": "Servicios",
+    "team": "Equipo",
+    "contact": "Contacto",
+    "Location": "Ubicacion",
+    "testimonials": "Reseñas",
+    "appointment": "Agendar cita"
+  },
+  "hero": {
+    "badge": "Atención médica moderna y humana",
+    "title1": "Cuidado preciso.",
+    "title2": "Conexión humana real.",
+    "description": "En Clínica Pura Vida combinamos tecnología y empatía para ofrecer bienestar duradero, con procesos claros y un trato cercano.",
+    "ctaPrimary": "Agendar cita",
+    "ctaSecondary": "WhatsApp"
+  },
+ 
+"team": {
+  "title": "Nuestro Equipo Médico",
+  "subtitle": "Profesionales comprometidos con tu bienestar y salud integral.",
+  "badge": "Conoce a Nuestros Especialistas",
+  "members": [
+    {
+      "key": "dr",
+      "name": "Dr. Ricardo Vargas",
+      "role": "Medicina General",
+      "desc": "Especialista en atención primaria y medicina preventiva. Más de 10 años de experiencia cuidando familias."
+    },
+    {
+      "key": "dra",
+      "name": "Dra. Laura Sánchez",
+      "role": "Pediatría",
+      "desc": "Centrada en el cuidado integral de niños y adolescentes con enfoque humano y familiar."
+    },
+    {
+      "key": "odon",
+      "name": "Dr. Javier Rojas",
+      "role": "Odontología",
+      "desc": "Experto en estética y salud dental con un enfoque moderno y tratamientos indoloros."
+    },
+    {
+      "key": "fisio",
+      "name": "Lic. Daniel Campos",
+      "role": "Fisioterapia y Rehabilitación",
+      "desc": "Ayuda a pacientes a recuperar movilidad y bienestar físico con terapias personalizadas."
+    },
+    {
+      "key": "lab",
+      "name": "Lic. Andrea Gómez",
+      "role": "Laboratorio Clínico",
+      "desc": "Encargado de análisis clínicos precisos y entrega rápida de resultados."
+    },
+    {
+      "key": "secre",
+      "name": "Sra. María Rodríguez",
+      "role": "Atención al Cliente",
+      "desc": "Brinda atención cálida, orientación y asistencia en la gestión de citas médicas."
+    }
+  ]
+},
+
+  "location": {
+    "title": "Ubicación",
+    "subtitle": "Encuéntrenos fácilmente en el corazón de Osa, Puntarenas.",
+    "badge": "Cómo llegar",
+
+    "address": "500 m norte de la Escuela Ojo de Agua, Puerto Cortés, Osa, Puntarenas, Costa Rica",
+    "schedule": "Horario: Lunes a Sábado — 8:00 am a 6:00 pm",
+    "openNow": "🟢 Abierto ahora",
+    "closedNow": "🔴 Cerrado",
+
+    "getDirections": "Obtener indicaciones",
+    "callUs": "Llamar",
+    "distanceFromYou": "Distancia desde tu ubicación"
+  },
+  "testimonials": {
+  "title": "Lo que Dicen Nuestros Pacientes",
+  "subtitle": "Historias reales de confianza, bienestar y atención médica de excelencia.",
+  "items": [
+    {
+      "text": "La atención fue increíble. Salí tranquila y con un diagnóstico claro.",
+      "name": "María López",
+      "role": "Paciente"
+    },
+    {
+      "text": "Un equipo muy profesional y humano. Desde el primer momento me sentí en buenas manos.",
+      "name": "Carlos Jiménez",
+      "role": "Paciente"
+    },
+    {
+      "text": "Servicio excelente. Atención rápida, amable y verdaderamente profesional.",
+      "name": "Ana Morales",
+      "role": "Paciente"
+    },
+    {
+      "text": "Mi hija recibió una atención excepcional. Altamente recomendado.",
+      "name": "Patricia Vargas",
+      "role": "Madre de paciente"
+    },
+    {
+      "text": "Perfecto para toda la familia. Nos sentimos seguros, apoyados y bien atendidos.",
+      "name": "Familia Rodríguez",
+      "role": "Pacientes"
+    }
+  ]
+},
+"contact": {
+  "title": "Ponte en contacto con nosotros",
+  "subtitle": "Estamos aquí para ayudarte y responder cualquier consulta.",
+  "formTitle": "Envíanos un mensaje",
+  "name": "Tu nombre",
+  "message": "Mensaje",
+  "send": "Enviar mensaje"
+},
+"cta": {
+  "mobileWhatsApp": "WhatsApp",
+  "mobileAppointment": "Agendar cita"
+},
+"footer": {
+  "description": "Atención médica cercana, confiable y profesional para toda la familia. Te acompañamos en cada etapa de tu bienestar.",
+  "quickLinks": "Enlaces rápidos",
+  "contact": "Contacto",
+  "rights": "Todos los derechos reservados"
+}
+
+
+
+
+
+}
+
+
+
+

@@ -1,0 +1,186 @@
+{
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive, modern, and patient-centered care.",
+    "cta": "Book via WhatsApp",
+    "ctaAria": "Book a WhatsApp appointment for {{service}}",
+    "whatsappMessage": "Hello, I'm interested in an appointment for {{service}}. Could you please share more information?",
+    "items": [
+      {
+        "key": "general",
+        "title": "General Medicine",
+        "desc": "Primary care, diagnosis, and follow-up for the whole family.",
+        "alt": "General medical consultation at the clinic"
+      },
+      {
+        "key": "lab",
+        "title": "Clinical Laboratory",
+        "desc": "Blood and urine tests with fast, reliable results.",
+        "alt": "Clinical laboratory equipment performing tests"
+      },
+      {
+        "key": "odonto",
+        "title": "Dentistry",
+        "desc": "Cleanings, fillings, and cosmetic care in a safe, modern setting.",
+        "alt": "Dentist treating a patient in a dental office"
+      },
+      {
+        "key": "pediatria",
+        "title": "Pediatrics",
+        "desc": "Growth checkups, vaccinations, and specialized child care.",
+        "alt": "Pediatrician attending a child"
+      },
+      {
+        "key": "fisio",
+        "title": "Physical Therapy & Rehabilitation",
+        "desc": "Personalized therapies to regain mobility and well-being.",
+        "alt": "Physical therapist guiding rehabilitation exercises"
+      },
+      {
+        "key": "telemed",
+        "title": "Telemedicine",
+        "desc": "Online medical consultations—anytime, anywhere.",
+        "alt": "Doctor providing a video call consultation"
+      },
+      {
+        "key": "emergencia",
+        "title": "Emergency Care",
+        "desc": "Immediate, timely care for urgent situations.",
+        "alt": "Medical team ready for emergencies"
+      }
+    ]
+  },
+  "nav": {
+    "brand": "Pura Vida Clinic",
+    "home": "Home",
+    "services": "Services",
+    "team": "Team",
+    "contact": "Contact",
+    "Location": "Location",
+    "testimonials": "Testimonials",
+    "appointment": "Book Appointment"
+  },
+  "hero": {
+    "badge": "Modern and human medical care",
+    "title1": "Precise care.",
+    "title2": "Real human connection.",
+    "description": "At Pura Vida Clinic we combine technology and empathy to provide lasting well-being, with clear processes and close attention.",
+    "ctaPrimary": "Book Appointment",
+    "ctaSecondary": "WhatsApp"
+  },
+"team": {
+  "title": "Our Medical Team",
+  "subtitle": "Professionals committed to your well-being and comprehensive care.",
+  "badge": "Get to Know Our Specialists",
+  "members": [
+    {
+      "key": "dr",
+      "name": "Dr. Ricardo Vargas",
+      "role": "General Medicine",
+      "desc": "Specialist in primary and preventive care with over 10 years of experience caring for families."
+    },
+    {
+      "key": "dra",
+      "name": "Dr. Laura Sánchez",
+      "role": "Pediatrics",
+      "desc": "Focused on the comprehensive care of children and adolescents with a human approach."
+    },
+    {
+      "key": "odon",
+      "name": "Dr. Javier Rojas",
+      "role": "Dentistry",
+      "desc": "Expert in dental aesthetics and health with a modern and pain-free approach."
+    },
+    {
+      "key": "fisio",
+      "name": "Lic. Daniel Campos",
+      "role": "Physiotherapy and Rehabilitation",
+      "desc": "Helps patients regain mobility and well-being through personalized therapies."
+    },
+    {
+      "key": "lab",
+      "name": "Lic. Andrea Gómez",
+      "role": "Clinical Laboratory",
+      "desc": "Responsible for precise, reliable lab tests with fast result delivery."
+    },
+    {
+      "key": "secre",
+      "name": "Ms. María Rodríguez",
+      "role": "Customer Service",
+      "desc": "Provides friendly attention, guidance, and assistance with appointment scheduling."
+    }
+  ]
+},
+
+  "location": {
+    "title": "Location",
+    "subtitle": "Find us easily in the heart of Osa, Puntarenas.",
+    "badge": "How to Get Here",
+
+    "address": "500 meters north of Escuela Ojo de Agua, Puerto Cortés, Osa, Puntarenas, Costa Rica",
+    "schedule": "Hours: Monday to Saturday — 8:00 am to 6:00 pm",
+    "openNow": "🟢 Open Now",
+    "closedNow": "🔴 Closed",
+
+    "getDirections": "Get Directions",
+    "callUs": "Call Us",
+    "distanceFromYou": "Distance from your location"
+  },
+  "testimonials": {
+  "title": "What Our Patients Say",
+  "subtitle": "Real stories of trust, care, and exceptional medical attention.",
+  "items": [
+    { 
+      "text": "The attention was incredible. I left feeling calm and with a clear diagnosis.", 
+      "name": "María López", 
+      "role": "Patient" 
+    },
+    { 
+      "text": "A highly professional and warm team. I felt in good hands from the very first moment.", 
+      "name": "Carlos Jiménez", 
+      "role": "Patient" 
+    },
+    { 
+      "text": "Excellent service. Fast, friendly, and truly professional care.", 
+      "name": "Ana Morales", 
+      "role": "Patient" 
+    },
+    { 
+      "text": "My daughter received outstanding care. Highly recommended.", 
+      "name": "Patricia Vargas", 
+      "role": "Mother of patient" 
+    },
+    { 
+      "text": "Perfect for the whole family — we felt safe, supported, and cared for.", 
+      "name": "Rodríguez Family", 
+      "role": "Patients" 
+    }
+  ]
+},
+"contact": {
+  "title": "Get in Touch",
+  "subtitle": "We’re here to help and answer any questions you may have.",
+  "formTitle": "Send us a message",
+  "name": "Your Name",
+  "message": "Message",
+  "send": "Send Message"
+},
+"cta": {
+  "mobileWhatsApp": "WhatsApp",
+  "mobileAppointment": "Book Now"
+},
+"footer": {
+  "description": "Trusted and professional healthcare for the whole family. We are here to support your well-being every step of the way.",
+  "quickLinks": "Quick Links",
+  "contact": "Contact",
+  "rights": "All rights reserved"
+}
+
+
+
+
+
+}
+
+
+
