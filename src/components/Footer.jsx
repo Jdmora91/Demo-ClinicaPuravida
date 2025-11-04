@@ -20,15 +20,14 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
-        
+
         {/* Branding */}
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <img
-              src="/src/assets/logo.png"
-              alt="Clinica Pura Vida"
-              className="h-12"
-            />
+            <img src={logo}
+              className="h-[27px] object-contain"
+              alt="Clinica Pura Vida" />
+              
             <h3 className="text-xl font-semibold text-blue-900">
               Clínica Pura Vida
             </h3>

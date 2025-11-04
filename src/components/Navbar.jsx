@@ -83,8 +83,8 @@ export default function Navbar() {
                 key={lng}
                 onClick={() => changeLanguage(lng)}
                 className={`px-2 text-sm transition ${i18n.language === lng
-                    ? "text-blue-600 font-bold"
-                    : "text-slate-600 hover:text-blue-500"
+                  ? "text-blue-600 font-bold"
+                  : "text-slate-600 hover:text-blue-500"
                   }`}
               >
                 {lng.toUpperCase()}
@@ -100,9 +100,8 @@ export default function Navbar() {
 
           {/* Logo */}
           {/* Logo */}
-          <img
-            src={logo}
-            className="h-[32px] object-contain"
+          <img src={logo}
+            className="h-[27px] object-contain"
             alt="Clinica Pura Vida"
           />
 
@@ -153,9 +152,8 @@ export default function Navbar() {
 
                 {/* LOGO */}
                 <img src={logo}
-                  className="h-[40px]"
-                  alt="Clinica Pura Vida"
-                />
+                  className="h-[27px] object-contain"
+                  alt="Clinica Pura Vida" />
 
                 {/* LINKS */}
                 <ul className="flex flex-col items-center gap-3 text-[18px] font-medium">
